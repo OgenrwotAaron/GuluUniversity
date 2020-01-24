@@ -1,0 +1,39 @@
+.navbar-nav li a{
+    color:#7b7b7b;
+    border-bottom: #8e8e8e solid 1px;
+    margin: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    transition: border-bottom ease 0.1s
+}
+.card:hover{
+    box-shadow: #b9b9b9 2px 2px 4px;
+}
+.card{
+    transition: box-shadow ease 0.3s;
+}
+.card-head{
+    transition: background ease 0.3s;
+    color: #fff;
+    background: rgb(1,18,43);
+}
+.card-head:hover{
+    color: rgb(1,18,43);
+    background: #eee;
+}
+.navbar-nav li a:hover{
+    color:#000;
+    border-bottom: #8e8e8e solid 3px;
+    background: #fff !important;
+}
+.navbar-toggle .icon-bar{
+    background: #7b7b7b;
+}
+
+@media(min-width:768px){
+    #myNavbar ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+}
